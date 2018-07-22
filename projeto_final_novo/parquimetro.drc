@@ -1,0 +1,8 @@
+Release 14.5 Drc P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Tue Aug 22 17:58:47 2017
+
+drc -z parquimetro.ncd parquimetro.pcf
+
+DRC detected 0 errors and 0 warnings.

@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map P.58f on Tue Aug 22 17:58:22 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "cem" LOCATE = SITE "D18" LEVEL 1;
+COMP "display<6>" LOCATE = SITE "H14" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "estouro" LOCATE = SITE "J14" LEVEL 1;
+COMP "vintecinco" LOCATE = SITE "H13" LEVEL 1;
+COMP "cinquenta" LOCATE = SITE "E18" LEVEL 1;
+COMP "confirma" LOCATE = SITE "B18" LEVEL 1;
+COMP "display<0>" LOCATE = SITE "L18" LEVEL 1;
+COMP "display<1>" LOCATE = SITE "F18" LEVEL 1;
+COMP "anodos<0>" LOCATE = SITE "F17" LEVEL 1;
+COMP "display<2>" LOCATE = SITE "D17" LEVEL 1;
+COMP "rst" LOCATE = SITE "G18" LEVEL 1;
+COMP "anodos<1>" LOCATE = SITE "H17" LEVEL 1;
+COMP "display<3>" LOCATE = SITE "D16" LEVEL 1;
+COMP "anodos<2>" LOCATE = SITE "C18" LEVEL 1;
+COMP "display<4>" LOCATE = SITE "G14" LEVEL 1;
+COMP "anodos<3>" LOCATE = SITE "F15" LEVEL 1;
+COMP "display<5>" LOCATE = SITE "J17" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

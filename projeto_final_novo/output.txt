@@ -1,0 +1,17 @@
+Storage Target: Xilinx Flash/PROM
+Storage Family: Platform Flash
+xcf04s          [4 M]
+FF
+teste
+C:\Users\Junior\Desktop\projeto_final_novo_praticamente_pronto\projeto_final_novo\
+
+MCS
+No
+S
+No
+1
+No
+o
+_final_novo\
+
+MCS

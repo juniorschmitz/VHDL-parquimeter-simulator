@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.58f
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o C:\Users\Junior\Desktop\projeto_final_novo_praticamente_pronto\projeto_final_novo\//Teste_Prom -x xcf32p -ver 0 C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.bit 
+
+PROM C:\Users\Junior\Desktop\projeto_final_novo_praticamente_pronto\projeto_final_novo\Teste_Prom.prm map: Tue Aug 22 18:21:24 2017
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          4096K
+PROM start    0000:0000
+PROM end      003f:ffff
+PROM checksum 3b73003a
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0004:547f     Aug 22 17:58:50 2017 C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.bit

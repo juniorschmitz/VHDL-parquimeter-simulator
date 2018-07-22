@@ -1,0 +1,34 @@
+V3 19
+FL C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/clk1khz.vhd 2017/07/28.05:37:08 P.58f
+EN work/clk1khz 1503435484 \
+      FL C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/clk1khz.vhd \
+      PB ieee/std_logic_1164 1364358218
+AR work/clk1khz/Behavioral 1503435485 \
+      FL C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/clk1khz.vhd \
+      EN work/clk1khz 1503435484
+FL C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/clk2hz.vhd 2017/07/28.06:47:25 P.58f
+EN work/clk2hz 1503435486 \
+      FL C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/clk2hz.vhd \
+      PB ieee/std_logic_1164 1364358218
+AR work/clk2hz/Behavioral 1503435487 \
+      FL C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/clk2hz.vhd \
+      EN work/clk2hz 1503435486
+FL C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/decoder7seg.vhd 2017/08/22.17:57:30 P.58f
+EN work/decoder7seg 1503435488 \
+      FL C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/decoder7seg.vhd \
+      PB ieee/std_logic_1164 1364358218 PB ieee/std_logic_arith 1364358219 \
+      PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/decoder7seg/Behavioral 1503435489 \
+      FL C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/decoder7seg.vhd \
+      EN work/decoder7seg 1503435488
+FL C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.vhd 2017/08/22.17:57:58 P.58f
+EN work/parquimetro 1503435490 \
+      FL C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.vhd \
+      PB ieee/std_logic_1164 1364358218
+AR work/parquimetro/Behavioral 1503435491 \
+      FL C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.vhd \
+      EN work/parquimetro 1503435490 CP clk1khz CP clk2hz CP decoder7seg
+FL C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/clk1khz.vhd 2017/07/28.05:37:08 P.58f
+FL C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/clk2hz.vhd 2017/07/28.06:47:25 P.58f
+FL C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/decoder7seg.vhd 2017/07/28.05:50:19 P.58f
+FL C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.vhd 2017/07/28.08:28:07 P.58f

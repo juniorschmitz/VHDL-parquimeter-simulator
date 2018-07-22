@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.58f
+# Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.58f
+DATE            08/22/2017 - 18:21
+SOURCE          C:\Users\Junior\Desktop\projeto_final_novo_praticamente_pronto\projeto_final_novo\Teste_Prom.mcs
+DEVICE          XCF32P
+DATA_WIDTH      8
+FILL_DATA       0xFF
+SIGNATURE       0x3B73003A
+BLOCK 0 VERSION 0 END 0x0BA3003A DCI

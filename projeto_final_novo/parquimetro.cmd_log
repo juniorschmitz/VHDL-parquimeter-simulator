@@ -1,0 +1,604 @@
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/vhdl_stuff/ledButton_new/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+xst -intstyle ise -ifn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.xst" -ofn "C:/Users/Junior/Desktop/projeto_final_novo_praticamente_pronto/projeto_final_novo/parquimetro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mapa.ucf -p xc3s500e-fg320-4 parquimetro.ngc parquimetro.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parquimetro_map.ncd parquimetro.ngd parquimetro.pcf 
+par -w -intstyle ise -ol high -t 1 parquimetro_map.ncd parquimetro.ncd parquimetro.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parquimetro.twx parquimetro.ncd -o parquimetro.twr parquimetro.pcf -ucf mapa.ucf 
+bitgen -intstyle ise -f parquimetro.ut parquimetro.ncd 

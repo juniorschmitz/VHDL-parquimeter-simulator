@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Junior\Desktop\projeto_final_novo_praticamente_pronto\projeto_final_novo\parquimetro.ncd
+OUTFILE=C:\Users\Junior\Desktop\projeto_final_novo_praticamente_pronto\projeto_final_novo\parquimetro.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\Junior\Desktop\projeto_final_novo_praticamente_pronto\projeto_final_novo
+LICENSE=WebPack
+USER_INFO=__0_0_0

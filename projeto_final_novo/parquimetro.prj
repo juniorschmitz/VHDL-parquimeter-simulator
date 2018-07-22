@@ -1,0 +1,4 @@
+vhdl work "decoder7seg.vhd"
+vhdl work "clk2hz.vhd"
+vhdl work "clk1khz.vhd"
+vhdl work "parquimetro.vhd"
